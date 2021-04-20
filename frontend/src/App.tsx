@@ -1,7 +1,8 @@
 import * as React from "react"
+import { Overlay } from "./components/Overlay"
 
 export const App = () => {
     return (
-        <div>Hello world</div>
+        <Overlay />
     )
 }
